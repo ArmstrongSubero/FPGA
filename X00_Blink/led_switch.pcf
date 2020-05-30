@@ -1,0 +1,12 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Sat May 30 02:45:37 2020
+//! **************************************************************************
+
+SCHEMATIC START;
+CONFIG VCCAUX = "3.3";
+COMP "Switch_Two" LOCATE = SITE "P79" LEVEL 1;
+COMP "LED_Two" LOCATE = SITE "P54" LEVEL 1;
+COMP "Switch_One" LOCATE = SITE "P80" LEVEL 1;
+COMP "LED_One" LOCATE = SITE "P55" LEVEL 1;
+SCHEMATIC END;
+

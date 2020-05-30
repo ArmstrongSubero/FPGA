@@ -1,0 +1,6 @@
+V3 3
+FL /home/ise/ISE_SHARE/X00_Blink/led_switch.vhd 2020/05/30.02:45:07 P.20131013
+EN work/led_switch 1590806712 FL /home/ise/ISE_SHARE/X00_Blink/led_switch.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/led_switch/Behavioral 1590806713 \
+      FL /home/ise/ISE_SHARE/X00_Blink/led_switch.vhd EN work/led_switch 1590806712

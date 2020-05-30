@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/ise/ISE_SHARE/X00_Blink/led_switch.ncd
+OUTFILE=/home/ise/ISE_SHARE/X00_Blink/led_switch.bit
+FAMILY=Spartan3A and Spartan3AN
+PART=xc3s50a-5tq144
+WORKINGDIR=/home/ise/ISE_SHARE/X00_Blink
+LICENSE=ISE
+USER_INFO=8416_11442_1478797146_620

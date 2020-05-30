@@ -1,0 +1,2 @@
+AR led_switch behavioral /home/ise/ISE_SHARE/X00_Blink/led_switch.vhd sub00/vhpl01 1590806713
+EN led_switch NULL /home/ise/ISE_SHARE/X00_Blink/led_switch.vhd sub00/vhpl00 1590806712

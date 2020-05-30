@@ -1,0 +1,20 @@
+xst -intstyle ise -ifn "/home/ise/ISE_SHARE/X00_Blink/led_switch.xst" -ofn "/home/ise/ISE_SHARE/X00_Blink/led_switch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50a-tq144-5 led_switch.ngc led_switch.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o led_switch_map.ncd led_switch.ngd led_switch.pcf 
+par -w -intstyle ise -ol high -t 1 led_switch_map.ncd led_switch.ncd led_switch.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml led_switch.twx led_switch.ncd -o led_switch.twr led_switch.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Elbert_Default.ucf -p xc3s50a-tq144-5 led_switch.ngc led_switch.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Elbert_Default.ucf -p xc3s50a-tq144-5 led_switch.ngc led_switch.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Elbert_Default.ucf -p xc3s50a-tq144-5 led_switch.ngc led_switch.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Elbert_Default.ucf -p xc3s50a-tq144-5 led_switch.ngc led_switch.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o led_switch_map.ncd led_switch.ngd led_switch.pcf 
+par -w -intstyle ise -ol high -t 1 led_switch_map.ncd led_switch.ncd led_switch.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml led_switch.twx led_switch.ncd -o led_switch.twr led_switch.pcf -ucf Elbert_Default.ucf 
+bitgen -intstyle ise -f led_switch.ut led_switch.ncd 
+bitgen -intstyle ise -f led_switch.ut led_switch.ncd 
+xst -intstyle ise -ifn "/home/ise/ISE_SHARE/X00_Blink/led_switch.xst" -ofn "/home/ise/ISE_SHARE/X00_Blink/led_switch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Elbert_Default.ucf -p xc3s50a-tq144-5 led_switch.ngc led_switch.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o led_switch_map.ncd led_switch.ngd led_switch.pcf 
+par -w -intstyle ise -ol high -t 1 led_switch_map.ncd led_switch.ncd led_switch.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml led_switch.twx led_switch.ncd -o led_switch.twr led_switch.pcf -ucf Elbert_Default.ucf 
+bitgen -intstyle ise -f led_switch.ut led_switch.ncd 

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<DeviceUsageSummary rev="6">
+<DesignStatistics TimeStamp="Sat May 30 02:46:46 2020"><group name="NetStatistics">
+<item name="NumNets_Active" rev="6">
+<attrib name="value" value="6"/></item>
+<item name="NumNodesOfType_Active_DOUBLE" rev="6">
+<attrib name="value" value="4"/></item>
+<item name="NumNodesOfType_Active_DUMMYESC" rev="6">
+<attrib name="value" value="2"/></item>
+<item name="NumNodesOfType_Active_HUNIHEX" rev="6">
+<attrib name="value" value="2"/></item>
+<item name="NumNodesOfType_Active_INPUT" rev="6">
+<attrib name="value" value="2"/></item>
+<item name="NumNodesOfType_Active_IOBOUTPUT" rev="6">
+<attrib name="value" value="2"/></item>
+</group>
+<group name="SiteStatistics">
+<item name="IBUF-DIFFMLR" rev="6">
+<attrib name="value" value="1"/></item>
+<item name="IBUF-DIFFSI_NDT" rev="6">
+<attrib name="value" value="1"/></item>
+<item name="IOB-DIFFMTB" rev="6">
+<attrib name="value" value="1"/></item>
+<item name="IOB-DIFFSTB" rev="6">
+<attrib name="value" value="1"/></item>
+</group>
+<group name="MiscellaneousStatistics">
+<item name="AGG_BONDED_IO" rev="5">
+<attrib name="value" value="4"/></item>
+<item name="AGG_IO" rev="5">
+<attrib name="value" value="4"/></item>
+<item name="NUM_BONDED_IBUF" rev="5">
+<attrib name="value" value="2"/></item>
+<item name="NUM_BONDED_IOB" rev="5">
+<attrib name="value" value="2"/></item>
+</group>
+</DesignStatistics>
+<DeviceUsage TimeStamp="Sat May 30 02:46:46 2020"><group name="SiteSummary">
+<item name="IBUF" rev="6">
+<attrib name="total" value="1000000"/><attrib name="used" value="2"/></item>
+<item name="IBUF_DELAY_ADJ_BBOX" rev="6">
+<attrib name="total" value="1000000"/><attrib name="used" value="2"/></item>
+<item name="IBUF_INBUF" rev="6">
+<attrib name="total" value="1000000"/><attrib name="used" value="2"/></item>
+<item name="IBUF_PAD" rev="6">
+<attrib name="total" value="1000000"/><attrib name="used" value="2"/></item>
+<item name="IOB" rev="6">
+<attrib name="total" value="1000000"/><attrib name="used" value="2"/></item>
+<item name="IOB_OUTBUF" rev="6">
+<attrib name="total" value="1000000"/><attrib name="used" value="2"/></item>
+<item name="IOB_PAD" rev="6">
+<attrib name="total" value="1000000"/><attrib name="used" value="2"/></item>
+</group>
+</DeviceUsage>
+<ReportConfigData TimeStamp="Sat May 30 02:46:46 2020"><group name="IBUF_PAD">
+<item name="IOATTRBOX" rev="6">
+<attrib name="LVCMOS33" value="2"/></item>
+<item name="PULL" rev="6">
+<attrib name="PULLUP" value="2"/></item>
+</group>
+<group name="IOB_OUTBUF">
+<item name="IN" rev="6">
+<attrib name="IN_INV" value="2"/><attrib name="IN" value="0"/></item>
+<item name="SUSPEND" rev="6">
+<attrib name="3STATE" value="2"/></item>
+</group>
+<group name="IBUF_DELAY_ADJ_BBOX">
+<item name="DELAY_ADJ_ATTRBOX" rev="6">
+<attrib name="FIXED" value="2"/></item>
+<item name="IBUF_DELAY_VALUE" rev="6">
+<attrib name="DLY0" value="2"/></item>
+<item name="IFD_DELAY_VALUE" rev="6">
+<attrib name="DLY0" value="2"/></item>
+<item name="SEL_IN" rev="6">
+<attrib name="SEL_IN" value="2"/><attrib name="SEL_IN_INV" value="0"/></item>
+</group>
+<group name="IOB_PAD">
+<item name="DRIVEATTRBOX" rev="6">
+<attrib name="12" value="2"/></item>
+<item name="IOATTRBOX" rev="6">
+<attrib name="LVCMOS33" value="2"/></item>
+<item name="SLEW" rev="6">
+<attrib name="SLOW" value="2"/></item>
+</group>
+<group name="IOB">
+<item name="O1" rev="6">
+<attrib name="O1_INV" value="2"/><attrib name="O1" value="0"/></item>
+</group>
+</ReportConfigData>
+<ReportPinData TimeStamp="Sat May 30 02:46:46 2020"><group name="IBUF_PAD">
+<item name="PAD" rev="6">
+<attrib name="value" value="2"/></item>
+</group>
+<group name="IBUF_INBUF">
+<item name="IN" rev="6">
+<attrib name="value" value="2"/></item>
+<item name="OUT" rev="6">
+<attrib name="value" value="2"/></item>
+</group>
+<group name="IOB_OUTBUF">
+<item name="IN" rev="6">
+<attrib name="value" value="2"/></item>
+<item name="OUT" rev="6">
+<attrib name="value" value="2"/></item>
+</group>
+<group name="IBUF">
+<item name="I" rev="6">
+<attrib name="value" value="2"/></item>
+<item name="PAD" rev="6">
+<attrib name="value" value="2"/></item>
+</group>
+<group name="IBUF_DELAY_ADJ_BBOX">
+<item name="IBUF_OUT" rev="6">
+<attrib name="value" value="2"/></item>
+<item name="SEL_IN" rev="6">
+<attrib name="value" value="2"/></item>
+</group>
+<group name="IOB_PAD">
+<item name="PAD" rev="6">
+<attrib name="value" value="2"/></item>
+</group>
+<group name="IOB">
+<item name="O1" rev="6">
+<attrib name="value" value="2"/></item>
+<item name="PAD" rev="6">
+<attrib name="value" value="2"/></item>
+</group>
+</ReportPinData>
+<CmdHistory>
+</CmdHistory>
+</DeviceUsageSummary>
